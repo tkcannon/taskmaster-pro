@@ -85,7 +85,7 @@ $(".list-group").on("blur", "textarea", function () {
 });
 
 // due date was clicked
-$(".list-group").on("click", "span", function() {
+$(".list-group").on("click", "span", function () {
   // get current text
   var date = $(this)
     .text()
@@ -139,7 +139,7 @@ $("#task-form-modal .btn-primary").click(function () {
 });
 
 // value of due date was changed
-$(".list-group").on("blur", "input[type='text']", function() {
+$(".list-group").on("blur", "input[type='text']", function () {
   // get current text
   var date = $(this)
     .val()
